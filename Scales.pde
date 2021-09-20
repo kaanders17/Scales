@@ -1,10 +1,10 @@
 void setup(){
-   size(400, 400);
+   size(600, 600);
    noLoop();
  }
  void draw(){
-  for(int y = -20; y < 420; y += 20)
-  {for(int x = -20; x < 420; x += 20){
+  for(int y = -20; y < 620; y += 20)
+  {for(int x = -20; x < 620; x += 20){
     scale(x,y);
     }
   }
